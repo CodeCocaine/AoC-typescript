@@ -12,8 +12,6 @@ export default class ConcretePuzzle extends Puzzle {
     let opponentCurrentMovePoints = 0;
 
     input.forEach(function (currentMove: string) {
-      opponentCurrentMovePoints = 0;
-      myCurrentMovePoints = 0;
       switch (currentMove as string) {
         case 'A': {
           opponentCurrentMovePoints = 1;
